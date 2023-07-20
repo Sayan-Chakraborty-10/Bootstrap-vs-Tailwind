@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/icons/Favicon2.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="tailwind.config.js"></script>
+    <title>Not-Found</title>
+    <style>
+        body{
+            background-image: url(images/not-found.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size:contain;
+        }
+        .margin{
+            margin: 300px;
+           animation: color 2s ease  infinite alternate;
+        }
+      @keyframes color {
+        0%{
+                color: rgb(244 63 94);
+            }
+            25%{
+                color: rgb(225 29 72);
+            }
+            50%{
+                color: rgb(190 18 60);
+            }
+            75%{
+                color: rgb(159 18 57);
+            }
+            100%{
+                color: rgb(136 19 55);
+            }
+      }
+    </style>
+</head>
+<body>
+   <div class="margin">
+    <p class="text-center sm:md:lg:text-6xl">Opps!</p>
+    <br>
+    <p class="text-center sm:md:lg:text-6xl">This content is not Found</p>
+    <button class="btn btn-danger sm:md:lg:mx-80 sm:md:lg:my-10 rounded-full"><a href="index.html" class="block py-2 pl-3 pr-4" aria-current="page">Please Go Back For Safely</a></button>
+   </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
